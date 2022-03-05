@@ -4,9 +4,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedidos</title>
+    <link rel="stylesheet" href="/Frontend/Semana 2/pasteleria.css">
 </head>
 <body>
-  <form>
+  <p><h1>Aqui puedes hacer tu pedido</h1></p><br>
+  <form action="pedido.js">
+    <label for="Nombre">Ingresa tu nombre</label>
+    <input type="text" id="Nombre" placeholder="Nombre"><br>
+    <label for="Telefono">Ingresa tu numero de telefono</label>
+    <input type="tel" id="Telefono" placeholder="Telefono"><br>
+    <label for="Correo">Ingresa tu correo</label>
+    <input type="email" id="Correo" placeholder="Correo"><br>
+    <label for="descripcion">Ingresa una descripcion general de como quieres tu pastel</label>
+    <input type="text" id="descripcion" placeholder="Descripcion"><br>
+
+    <h2>Servicio a domicilio o recoger</h2>
+      <label for="domicilio">Domicilio</label>
+      <input type="radio" id="domicilio" name="servicio" value="Domicilio"><br>
+      <label for="recoger">Recoger</label>
+      <input type="radio" id="recoger" name="servicio" value="Recoger"><br>
+      <label for="lugar">Ingresa tu direccion </label>
+      <input type="text" id="lugar" placeholder="Direccion">
+
+    <br> <br>
+
+    <p><h2>Elige el sabor del pastel. (Si eliges mas de 1 sabor tu pastel sera mixto)</h2></p>
+    <label for="pastel-vainilla">Pastel de vainilla</label>
+    <input type="checkbox" id="pastel-vainilla"  value="Vainilla"><br>
+    <label for="pastel-fresa">Pastel de fresa</label>
+    <input type="checkbox" id="pastel-fresa"  value="Fresa"><br>
+    <label for="pastel-chocolate">Pastel de chocolate</label>
+    <input type="checkbox" id="pastel-chocolate"  value="Chocolate"><br>
+    <label for="pastel-nuez">Pastel de nuez</label>
+    <input type="checkbox" id="pastel-nuez"  value="Nuez"><br>
+    <label for="pastel-ciruela">Pastel de ciruela</label>
+    <input type="checkbox" id="pastel-ciruela"  value="Ciruela"><br>
+    <label for="pastel-treslcehes">Pastel de tres leches</label>
+    <input type="checkbox" id="pastel-tresleches"  value="Tres leches"><br>
+    <label for="pastel-zanahoria">Pastel de zanahoria</label>
+    <input type="checkbox" id="pastel-zanahoria"  value="Zanahoria"><br><br>
+
+    <p><h2>Elige tus adornos para el pastel. (Puedes elegir mas de uno)</h2></p>
+    <label for="vela">Vela tipo 1</label>
+    <input type="checkbox" id="vela"  value="Vela"><br>
+    <label for="vela2">Vela tipo 2</label>
+    <input type="checkbox" id="vela2"  value="Vela2"><br>
+    <label for="vela-numero">Vela de numero tipo 1</label>
+    <input type="checkbox" id="vela-numero"  value="Vela-numero"><br>
+    <label for="vela-numero2">Vela de numero tipo 2</label>
+    <input type="checkbox" id="vela-numero2"  value="Vela-numero2"><br>
+    <label for="figura-personal">Figura personalizada</label>
+    <input type="checkbox" id="figura-personal"  value="Figura-personal"><br><br>
+
+    <input type="button" value="Enviar" >
+
       
   </form>
 </body>
