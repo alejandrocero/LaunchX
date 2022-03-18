@@ -4,25 +4,98 @@ body {
     height: 5800px;
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color:  rgb(109, 123, 147);
+    font-weight: bold;
+}
+li {
+    list-style: none;
+
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.logos {
+    max-width: 200px;
+    max-height: 100px;
+    opacity: 0.2;
+
 }
 header {
     background: linear-gradient(90deg, white 50%, rgb(231, 243, 252) 50%);
     width: 1900px;
     height: 180px;
-    font-family: sans-serif;
+    
+}
+.title0 {
+    font-size: 80px;
+    padding-left: 200px;
+    text-align: justify;
+    color: rgb(31, 62, 114);
+    font-weight: 700;
+}
+.text0 {
+    font-size: 20px;
+    color:  rgb(109, 123, 147);
+    padding-left: 200px;
+}
+.cont {
+    width: 900px;
+    text-align: center;
+}
+.icon {
+    max-width: 20px;
+    max-height: 20px;
+}
+.icon2 {
+    max-width: 40px;
+    max-height: 40px;
+    float: left;
+}
+.arrow {
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 250px;
+
+}
+.arrow1 {
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 350px;
+
+}
+.arrow2 {
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 340px;
+
+}
+.arrow3 {
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 240px;
+
+}
+.arrow-i {
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 385px;
+    transform: rotate(180deg);
 }
 div a {
-
     text-decoration-line: none;
     color: rgb(109, 123, 147);
     font-weight: 600;
 }
-#logo {
+.logo {
     position: absolute;
     top: 90px;
     left: 180px;
 }
-#navbar {
+.navbar {
     width: 960px;
     height: 50px;
     position: absolute;
@@ -31,6 +104,12 @@ div a {
     font-size: 25px;
     display: flex;
     justify-content: space-between;
+}
+
+.text {
+    font-size: 20px;
+    color:  rgb(109, 123, 147);
+    text-align: justify;
 }
 .flex2 {
     width: 225px;
@@ -45,4 +124,155 @@ div a {
 }
 #enfermera {
     float: right;
+}
+#table {
+    width: 880px;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+.submit{
+    font-size: 20px;
+    width: 150px;
+    height: 60;
+    top: 100px;
+    background-color: rgb(49, 81, 207);
+    border-radius: 5px;
+    color: white;
+}
+.container2 {
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title1 {
+    font-size: 60px;
+    padding-left: 150px;
+    text-align: justify;
+    color: rgb(31, 62, 114);
+    font-weight: 700;
+}
+.subtitle {
+    padding-left: 150px;
+    line-height: 170%;
+}
+.container10 {
+    display: flex;
+    justify-content: space-around;
+    height: 260px;
+}
+.subtitle11 {
+    font-size: 25px;
+}
+.text11 {
+    font-size: 17px;
+    line-height: 170%;
+}
+.mask {
+    float: left;
+    max-width: 900px;
+    max-height: 1000px;
+}
+.container3 + p{
+    display: flex;
+    flex-direction: row;
+    height: 1800px;
+}
+.text111 {
+    margin-left: 100px;
+    font-size: 60px;
+    text-align: justify;
+    color: rgb(31, 62, 114);
+    font-weight: 700;
+}
+.text1111 {
+    line-height: 170%;
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.text2222 {
+    margin-left: 100px;
+    line-height: 170%;
+}
+.enfer {
+    margin-top: -300px;
+    float: right;
+}
+.con-con {
+    display: flex;
+    width: 800px;
+    height: 385px;
+}
+.button1 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(241, 245, 255);
+    color: rgb(55, 87, 213);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.button2 {
+    width: 200px;
+    height: 50px;
+    color: rgb(241, 245, 255);
+    background-color: rgb(55, 87, 213);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.p1 {
+    padding-left: 150px;
+    padding-top: 40px;
+}
+.p2 {
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.p3 {
+    margin-left: -430px;
+    padding-top: 200px;
+}
+.p4 {
+    margin-left: 100px;
+    padding-top: 200px;
+}
+footer {
+    height: 300px;
+    display:flex ;
+    font-size: 15px;
+    color:  rgb(109, 123, 147);
+}
+.foot {
+    display: flex;
+    margin-top: 250px;
+    margin-left: -1500px;
+}
+.container5 {
+    justify-content: center;
+    margin-left: 100px;
+}
+.fp1 {
+    margin-left: 1100px;
+}
+.fp2 {
+    margin-left: 100px;
+}
+.container6 {
+    margin-left: 600px;
+    height: 200px;
+
+}
+.container7 {
+    margin-left: 100px;
+}
+.container8 {
+    margin-left: 100px;
+}
+.t1 {
+    font-size: 25px;
 }
