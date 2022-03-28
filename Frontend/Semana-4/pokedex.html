@@ -4,12 +4,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex Launcher</title>
-    
+    <link rel="icon" type="image/jpg" href="/Frontend/Semana-4/Assets/Images/pokeball.png"/>
+    <link rel="stylesheet" href="/Frontend/Semana-4/pokedex.css">
+    <script src="/Frontend/Semana-4/pokedex.js" defer></script>
 </head>
 <body>
-    <input type="text" placeholder="pikachu" name="pokeName" id="pokeName">
-    <img src="" alt="Pokemon">
-    <button>Cambiar Pokemon</button>
-    <script src="/Frontend/Semana-4/pokedex.js"></script>
+    <div class="border">
+        <div>
+            <input type="text" placeholder="Pokename or ID" name="pokeName" id="pokeName">
+            <button id="searchPokemon" onclick="fetchPokemon()">Cambiar Pokemon</button>
+        </div>
+        <div>
+            <img id="pokeImg" src="" alt="">
+            <h2 id="name"></h2> <br>
+            <h2 class="type1" id="type1"></h2> <h2 class="type2" id="type2"></h2>
+
+        </div>
+    </div>
+    <div class="borderstats">
+        <p id="hp"></p>
+        <p id="attack"></p>
+        <p id="defense"></p>
+        <p id="sattack"></p>
+        <p id="sdefense"></p>
+        <p id="speed"></p>
+    </div>
+
 </body>
+
 </html>

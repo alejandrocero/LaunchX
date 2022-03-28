@@ -1,0 +1,86 @@
+body {
+    background-image: url(/Frontend/Semana-4/Assets/Images/pinpng.com-pokedex-png-6639628.png);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.border {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: 285px;
+    margin-top: 225px;
+    width: 520px;
+    height: 342px;
+}
+
+.borderstats {
+    border: 5px solid black;
+    border-radius: 20px;
+    float: right;
+    margin-top: -322px;
+    margin-right: 235px;
+    width: 530px;
+    height: 190px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.normal {
+    background: #DDCCAA;
+}
+
+.fighting {
+    background: #FF6A6A;
+}
+
+.flying {
+    background: #BAAAFF;
+}
+.poison {
+    background: #CC88BB;
+}
+.ground {
+    background: #DEB887;
+}
+.rock {
+    background: #CD853F;
+}
+.bug {
+    background: #99CC33;
+}
+.ghost {
+    background: #778899;
+}
+.steel {
+    background: #CCCCCC;
+}
+.fire {
+    background: #FF7F00;
+}
+.water {
+    background: #B0E2FF;
+}
+.grass {
+    background: #99FF66;
+}
+.electric {
+    background: #FFD700;
+}
+.psychic {
+    background: #FFB5C5;
+}
+.ice {
+    background: #ADD8E6;
+}
+.dragon {
+    background: #AB82FF;
+}
+
+.dark {
+    background: #A9A9A9;
+}
+.fairy {
+    background: #FFB0FF;
+}
